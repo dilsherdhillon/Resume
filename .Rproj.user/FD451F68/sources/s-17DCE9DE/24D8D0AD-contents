@@ -1,0 +1,87 @@
+---
+title: "Dilsher Singh Dhillon"
+author: "Dilsher Dhillon"
+date: "12/4/2019"
+output: pagedown::html_resume
+---
+
+
+
+Aside  
+=======================================   
+
+**Contact**       
+---------------------------------------    
+dhillon88@tamu.edu   
+dilsherdhillon.rbind.io   
+github.com/dilsherdhillon   
+
+
+Skills  
+---------------------------------------
+**Statistics**    <i class="fa fa-infinity"></i>   
+
+Applied Statistical Modeling    
+Bayesian Inference   
+Experimental Design 
+
+
+**Data Science**      <i class="fa fa-code-branch"></i>  
+
+R, Python, Stan      
+Version Control using git   
+Shiny application development   
+Docker containters for reproducible analysis and deploying applications   
+
+**Consulting**     <i class="fa fa-people-carry"></i>  
+Gathering key subject expertise from clients  
+Effectively communicating results to stakeholders  
+Trade-off between business value and 
+
+Main
+====================================
+
+Dilsher Singh Dhillon {#title}
+------------------------------------
+
+Applied statistician with extensive expertise in statistics and data science.  I use statistical modeling to characterize uncertainity and assist in optimal decision making for business problems. I'm an advocate for reproducible research and analysis using Rmarkdown/Jupyter notebooks and docker containers.  
+
+
+
+Disclaimer   
+------------------------------------  
+Permanent US Resident  
+
+Education {data-icon=graduation-cap}
+------------------------------------
+
+### Texas A&M University  
+
+Master's in Statistics   
+
+College Station   
+
+2015 - 2017   
+
+Graduated Summma Cum Laude   
+
+### Texas A&M University   
+
+Master's in Biotechnology  
+
+College Station   
+
+2010 - 2012    
+
+Work Experience  {data-icon=briefcase}  
+------------------------------------  
+
+### Shell International Exploration and Production   
+
+Statistical Consultant   
+
+Houston, TX  
+
+March 2019 - Present  
+
+Work like a bitch most days  
