@@ -12,18 +12,17 @@ Aside
 
 **Contact**       
 ---------------------------------------    
-dhillon88@tamu.edu   
-dilsherdhillon.rbind.io   
-github.com/dilsherdhillon   
+dhillon.dilsher@gmail.com     
+[dilsherdhillon.rbind.io](dilsherdhillon.rbind.io)   
 
 
 Skills  
 ---------------------------------------
 **Statistics**    <i class="fa fa-infinity"></i>   
 
-Applied Statistical Modeling    
-Bayesian Inference   
-Experimental Design 
+Applied Statistical Modeling   
+Experimental Design  
+Bayesian Inference    
 
 
 **Data Science**      <i class="fa fa-code-branch"></i>  
@@ -41,10 +40,10 @@ Trade-off between business value and
 Main
 ====================================
 
-Dilsher Singh Dhillon {#title}
+Dilsher Singh Dhillon {#title}  
 ------------------------------------
 
-Applied statistician with extensive expertise in statistics and data science.  I use statistical modeling to characterize uncertainity and assist in optimal decision making for business problems. I'm an advocate for reproducible research and analysis using Rmarkdown/Jupyter notebooks and docker containers.  
+Applied statistician with extensive expertise in statistics and data science.  I use statistical modeling to characterize uncertainity and assist in optimal decision making for business problems. I'm an advocate for reproducible research and analysis enabled by the use of Rmarkdown/Jupyter notebooks and docker containers.  
 
 
 
@@ -59,19 +58,29 @@ Education {data-icon=graduation-cap}
 
 Master's in Statistics   
 
-College Station   
+College Station, TX     
 
 2015 - 2017   
 
-Graduated Summma Cum Laude   
+Summa Cum Laude   
 
 ### Texas A&M University   
 
 Master's in Biotechnology  
 
-College Station   
+College Station, TX     
 
 2010 - 2012    
+
+Cum Laude  
+
+### Panjab University   
+
+Bachelor of Engineering  
+
+Chandigarh, India   
+
+2006 - 2010  
 
 Work Experience  {data-icon=briefcase}  
 ------------------------------------  
@@ -84,4 +93,34 @@ Houston, TX
 
 March 2019 - Present  
 
-Work like a bitch most days  
+
+- Provide statistical consulting support to scientists and engineers in R&D   
+- Support the statistical and data science needs of drilling operations in the Permian basin  
+- Provide training and mentorship to new joiners and summer interns   
+
+
+
+### Baylor College of Medicine  
+
+Statistician   
+
+Houston, TX   
+
+2018 - 2019   
+
+
+- Provided statistical support to the TB-AIDS reduction program led by Baylor in sub-saharan Africa   
+- Developed a regression model to identify risk factors associated with poor TB outcomes among subjects with HIV      
+- Assisted physician researchers with bioinformatic analysis of methylation and flow cytometry analysis  
+
+### MD Anderson Cancer Center 
+
+Research Investigator  
+
+Houston, TX  
+
+2013 - 2017  
+
+- Oversee assay development of novel biomarkers and testing of in-house and commercial assays in clinical samples for validation  
+- Manage the Specimen Manger database for recording subject characteristics, biospecimen banking and inventory and multicenter study inventory for the Lung Cancer Early Detection (LCED) trial  
+
