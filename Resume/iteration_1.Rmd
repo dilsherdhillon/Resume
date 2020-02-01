@@ -2,7 +2,9 @@
 title: "Dilsher Singh Dhillon"
 author: "Dilsher Dhillon"
 date: "12/4/2019"
-output: pagedown::html_resume
+output:
+  pagedown::html_resume:
+    css: ['css/custom_resume.css', 'css/styles.css', 'resume']
 ---
 
 
@@ -13,28 +15,37 @@ Aside
 **Contact**       
 ---------------------------------------    
 dhillon.dilsher@gmail.com     
-[dilsherdhillon.rbind.io](dilsherdhillon.rbind.io)   
+[Webpage](dilsherdhillon.rbind.io)   
 
 
 Skills  
 ---------------------------------------
 **Statistics**    <i class="fa fa-infinity"></i>   
 
-Applied Statistical Modeling   
-Experimental Design  
-Bayesian Inference    
+
+Generalized Linear and Additive Models  
+Heirarchical Models   
+Bespoke Regression Modeling    
+Design of Experiments(DOE)  
+Bayesian Inference  
+Time-series Regression   
 
 
 **Data Science**      <i class="fa fa-code-branch"></i>  
 
-R, Python, Stan      
-Version Control using git   
+R, Python  
+Stan(*learning in progress*)  
+Version Control  
+Building Docker images to containerize applications and analysis workflows   
+Building packages in R 
+Unit-testing 
 Shiny application development   
-Docker containters for reproducible analysis and deploying applications   
 
 **Consulting**     <i class="fa fa-people-carry"></i>  
+Experience in consulting stakeholders 
 Gathering key subject expertise from clients  
-Effectively communicating results to stakeholders  
+Effectively communication to non-technical audience  
+Working closely with decision makers   
 Trade-off between business value and 
 
 Main
@@ -43,7 +54,7 @@ Main
 Dilsher Singh Dhillon {#title}  
 ------------------------------------
 
-Applied statistician with extensive expertise in statistics and data science.  I use statistical modeling to characterize uncertainity and assist in optimal decision making for business problems. I'm an advocate for reproducible research and analysis enabled by the use of Rmarkdown/Jupyter notebooks and docker containers.  
+I'm an applied statistician with expertise in applying both traditional and modern statistical methods to solve business problems.  I'm an advocate for reproducible workflows and an avid user of R markdown documents and docker containers.  I'm looking for opportunities where I can leverage my statistics training to quantify uncertainty to aid in better decision making.  
 
 
 
@@ -87,40 +98,50 @@ Work Experience  {data-icon=briefcase}
 
 ### Shell International Exploration and Production   
 
-Statistical Consultant   
+**Statistical Consultant**     
 
 Houston, TX  
 
 March 2019 - Present  
 
-
-- Provide statistical consulting support to scientists and engineers in R&D   
-- Support the statistical and data science needs of drilling operations in the Permian basin  
-- Provide training and mentorship to new joiners and summer interns   
+- *Shell commercial products*       
+  - Help improve the line of products offered by Shell by assisting researchers with experimental design   
+  - Bespoke statistical analysis of experiments   
+  - Effective communication of results to stakeholders aiding in optimum decision making  
+- *Drilling operations*  
+  - Provide statistical input to the machine learning team assisting the 
+  - Developed a probabilistic map of a region of interest that   
+- Provide training and mentor-ship to new joiners and summer interns   
 
 
 
 ### Baylor College of Medicine  
 
-Statistician   
+**Statistician**      
 
 Houston, TX   
 
 2018 - 2019   
 
-
-- Provided statistical support to the TB-AIDS reduction program led by Baylor in sub-saharan Africa   
-- Developed a regression model to identify risk factors associated with poor TB outcomes among subjects with HIV      
-- Assisted physician researchers with bioinformatic analysis of methylation and flow cytometry analysis  
+- *Identifying risk factors for poor outcomes in co-infected TB-HIV patients*    
+  - Worked with clinicians in Africa to extract longitudunal data for ~25000 subjects  
+  - Developed a statistical model to understand risk factors that are associated with poor TB outcome - which leads to better patient management guidelines for high risk countries.  
+- *Studying underlying epigenetic mechanism of TB infection*  
+  - Processed methylation data from EPIC arrays consisting of ~850,000 individual probes 
+  - Assisted physician researchers with bioinformatic analysis of methylation and flow cytometry analysis  
+  - Automated a pipeline in Python for merging of patient data from clinical research forms in eSwatini   
 
 ### MD Anderson Cancer Center 
 
-Research Investigator  
+**Research Investigator**    
 
-Houston, TX  
+Houston, TX    
 
-2013 - 2017  
+2013 - 2018   
 
-- Oversee assay development of novel biomarkers and testing of in-house and commercial assays in clinical samples for validation  
-- Manage the Specimen Manger database for recording subject characteristics, biospecimen banking and inventory and multicenter study inventory for the Lung Cancer Early Detection (LCED) trial  
+- Promoted to a supervisory capacity to oversee assay development of novel biomarkers and testing of in-house and commercial
+assays in clinical samples for validation   
+- Developed a novel protein biomarker panel bioassay which was commercially licensed to a company in China  
+- Managed the Specimen Manger database for recording subject characteristics, bio-specimen banking and inventory and multicenter study inventory for the Lung Cancer Early Detection (LCED) trial 
+
 
