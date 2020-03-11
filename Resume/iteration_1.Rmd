@@ -7,6 +7,7 @@ output:
     css: ['css/custom_resume.css', 'css/styles.css', 'resume']
 ---
 
+
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
@@ -32,8 +33,8 @@ Aside
 **Contact**       
 ---------------------------------------    
 - <i class="fa fa-envelope"></i> dhillon.dilsher@gmail.com   
-- <i class="fa fa-twitter"></i> dhillon_stats  
-- <i class="fa fa-link"></i> [Webpage](http://dilsherdhillon.rbind.io/)  
+- <i class="fa fa-twitter"></i> [dhillon_stats](https://twitter.com/dhillon_stats)
+- <i class="fa fa-link"></i> [Webpage](http://dilsherdhillon.rbind.io/)
 
 
 Skills  
@@ -42,19 +43,18 @@ Skills
 
 
 Generalized Linear Models  
-Heirarchical Models   
 Design of Experiments(DOE)  
+Heirarchical Models   
 Bayesian Inference  
-Bespoke Statistical Models  
-Time-series Regression   
+Non-linear Statistical Models
+Time-series Regression and Forecasting 
 
 
 **Software**      <i class="fa fa-code-branch"></i>  
 
-R, Python  
-Stan, SQL  
+R, Stan  
+Python, SQL  
 Git, Docker  
-Building Docker images to containerize applications and analysis workflows   
 Package Development in R    
 Unit-testing   
 Shiny application development   
@@ -115,14 +115,15 @@ Work Experience  {data-icon=briefcase}
 
 ### Shell International Exploration and Production   
 
-Statistical Consultant      
+Statistician        
 
 Houston, TX  
 
 March 2019 - Present  
 
 - *Shell commercial products*       
-  - Help improve the line of products offered by Shell by assisting researchers implement sensible experimental design  
+  - Help improve the line of products offered by Shell by assisting researchers implement optimal experimental designs  
+  - Developed novel experimental methods to make inferences on important metrics  
   - Analysis of randomized experiments and higher-order factorial designs  
   - Building data models from complex unstructured data to conduct meaningful statistical analysis  
   - Effective communication of results to stakeholders aiding in optimum decision making  
@@ -130,7 +131,6 @@ March 2019 - Present
   - Delivered a well calibrated probabilistic map of a region of interest that indicates risk of encountering hazards     
   - Provide statistical input to the business unit on decisions to turn work on/off   
   - Building interpretable machine learning models to drive decision making  
-- Developing experimental methods to make inferences on important metrics 
 
 
 ### Baylor College of Medicine  
@@ -146,7 +146,6 @@ Houston, TX
   - Developed a statistical model to understand risk factors that are associated with poor TB outcome - which leads to better patient management guidelines for high risk countries.  
 - *Studying underlying epigenetic mechanism of TB infection*  
   - Processed methylation data from EPIC arrays consisting of ~850,000 individual probes 
-  - Assisted physician researchers with bioinformatic analysis of methylation and flow cytometry analysis  
   - Automated a pipeline in Python for merging of patient data from clinical research forms in eSwatini   
 
 ### MD Anderson Cancer Center 
