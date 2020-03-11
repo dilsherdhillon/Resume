@@ -7,6 +7,23 @@ output:
     css: ['css/custom_resume.css', 'css/styles.css', 'resume']
 ---
 
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  results='asis', 
+  echo = FALSE
+)
+library(tidyverse)
+library(glue)
+
+# Set this to true to have links turned into footnotes at the end of the document
+PDF_EXPORT <- TRUE
+
+# Holds all the links that were inserted for placement at the end
+links <- c()
+
+source('parsing_functions.R')
+```
+
 
 
 Aside  
@@ -14,8 +31,9 @@ Aside
 
 **Contact**       
 ---------------------------------------    
-dhillon.dilsher@gmail.com     
-[Webpage](dilsherdhillon.rbind.io)   
+- <i class="fa fa-envelope"></i> dhillon.dilsher@gmail.com   
+- <i class="fa fa-twitter"></i> dhillon_stats  
+- <i class="fa fa-link"></i> [Webpage](http://dilsherdhillon.rbind.io/)  
 
 
 Skills  
@@ -23,30 +41,29 @@ Skills
 **Statistics**    <i class="fa fa-infinity"></i>   
 
 
-Generalized Linear and Additive Models  
+Generalized Linear Models  
 Heirarchical Models   
-Bespoke Regression Modeling    
 Design of Experiments(DOE)  
 Bayesian Inference  
+Bespoke Statistical Models  
 Time-series Regression   
 
 
-**Data Science**      <i class="fa fa-code-branch"></i>  
+**Software**      <i class="fa fa-code-branch"></i>  
 
 R, Python  
-Stan(*learning in progress*)  
-Version Control  
+Stan, SQL  
+Git, Docker  
 Building Docker images to containerize applications and analysis workflows   
-Building packages in R 
-Unit-testing 
+Package Development in R    
+Unit-testing   
 Shiny application development   
 
 **Consulting**     <i class="fa fa-people-carry"></i>  
-Experience in consulting stakeholders 
+Experience in statistical consulting      
 Gathering key subject expertise from clients  
-Effectively communication to non-technical audience  
-Working closely with decision makers   
-Trade-off between business value and 
+Working closely with decision makers to frame relevant questions   
+Effective communication to non-technical audience    
 
 Main
 ====================================
@@ -98,26 +115,27 @@ Work Experience  {data-icon=briefcase}
 
 ### Shell International Exploration and Production   
 
-**Statistical Consultant**     
+Statistical Consultant      
 
 Houston, TX  
 
 March 2019 - Present  
 
 - *Shell commercial products*       
-  - Help improve the line of products offered by Shell by assisting researchers with experimental design   
-  - Bespoke statistical analysis of experiments   
+  - Help improve the line of products offered by Shell by assisting researchers implement sensible experimental design  
+  - Analysis of randomized experiments and higher-order factorial designs  
+  - Building data models from complex unstructured data to conduct meaningful statistical analysis  
   - Effective communication of results to stakeholders aiding in optimum decision making  
 - *Drilling operations*  
-  - Provide statistical input to the machine learning team assisting the 
-  - Developed a probabilistic map of a region of interest that   
-- Provide training and mentor-ship to new joiners and summer interns   
-
+  - Delivered a well calibrated probabilistic map of a region of interest that indicates risk of encountering hazards     
+  - Provide statistical input to the business unit on decisions to turn work on/off   
+  - Building interpretable machine learning models to drive decision making  
+- Developing experimental methods to make inferences on important metrics 
 
 
 ### Baylor College of Medicine  
 
-**Statistician**      
+Statistician        
 
 Houston, TX   
 
@@ -133,7 +151,7 @@ Houston, TX
 
 ### MD Anderson Cancer Center 
 
-**Research Investigator**    
+Research Investigator       
 
 Houston, TX    
 
@@ -141,7 +159,6 @@ Houston, TX
 
 - Promoted to a supervisory capacity to oversee assay development of novel biomarkers and testing of in-house and commercial
 assays in clinical samples for validation   
-- Developed a novel protein biomarker panel bioassay which was commercially licensed to a company in China  
-- Managed the Specimen Manger database for recording subject characteristics, bio-specimen banking and inventory and multicenter study inventory for the Lung Cancer Early Detection (LCED) trial 
+- Managed the Specimen Manger database for recording subject characteristics, bio-specimen banking and inventory and multicenter study inventory for the Lung Cancer Early Detection trial 
 
 
